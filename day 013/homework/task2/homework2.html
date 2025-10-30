@@ -1,0 +1,63 @@
+<!-- 3)  შექმენით ერთგვერდიანი ვებსაიტი GOA-ს შესახებ, რომელზეც დაამატებთ ნავიგაციას, საიტზე უნდა იყოს მინიმუმ 3 სხვადასხვა სექცია. ამასთან აუცილებლად უნდა იყოს ფორმა, რომლის საშვალებითაც სტუმარი შეძლებს GOA-ში რეგისტრაციას და ჩადობას -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA - Goal Oriented Academy</title>
+</head>
+<body>
+        <nav>
+            <a href="#home">მთავარი</a>
+            <a href="#about">ჩვენს შესახებ</a>
+            <a href="#courses">კურსები</a>
+            <a href="#register">რეგისტრაცია</a>
+        </nav>
+    <section id="home">
+        <h1>GOA - Goal Oriented Academy</h1>
+        <p>განავითარე შენი უნარები, გახდი საუკეთესო და მიაღწიე მიზნებს GOA-სთან ერთად!</p>
+    </section>
+
+    <section id="about">
+        <h2>ჩვენს შესახებ</h2>
+        <p>GOA არის აკადემია, სადაც ბავშვები და მოზარდები სწავლობენ პროგრამირებას, ლიდერობასა და გუნდურ მუშაობას. 
+        ჩვენ გვჯერა, რომ სწორი გარემო და მოტივაცია ადამიანს უკეთესად აქცევს.</p>
+    </section>
+
+    <section id="courses">
+        <h2>კურსები</h2>
+        <ul>
+            <li> Python პროგრამირება</li>
+            <li> ვებ-დეველოპმენტი (HTML, CSS, JS)</li>
+            <li> ხელოვნური ინტელექტის საფუძვლები</li>
+            <li> ლიდერობა და გუნდური უნარები</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>რეგისტრაცია GOA-ში</h2>
+        <form>
+            <label for="name">სახელი</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="email">ელ. ფოსტა</label>
+            <input type="email" id="email" required>
+            <br><br>
+            <label for="pass">პაროლი</label>
+            <input type="password" id="pass" required>
+            <br><br>
+            <label for="course">აირჩიე კურსი</label>
+            <select id="course" required>
+                <option value="">აირჩიეთ კურსი</option>
+                <option value="Python">Python</option>
+                <option value="Web">Web Development</option>
+                <option value="AI">AI</option>
+                <option value="Leadership">Leadership</option>
+            </select>
+            <br><br>
+            <button type="submit">რეგისტრაცია</button>
+        </form>
+        
+    </section>
+</body>
