@@ -1,0 +1,36 @@
+<!-- 7) interal css-ში 1 წესის საშვალებით გასტილეთ 2 h1 და h2 ვებგვერდზე, ასევე მეორე წესის საშვალებით გასტილეთ div-ში არსებული ყველა პარაგრაფი, მინმიუმ მიანიჭეთ color და background-color შეეცადეთ გამოიყენოთ ყველა კუთვნილება. კომენტარებით ახსენით თუ რა არის CSS-ის წესი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h2{
+            color: black;
+            background-color: brown;
+            text-align: center;
+            border: 1px solid green;
+            }
+        div p {
+            color:aqua;
+            text-align: center;
+            border: 1px solid red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>something</h1>
+    <h2>something</h2>
+    <div>
+        <p>something</p>
+        <p>something</p>
+    </div>
+</body>
+</html>
+
+<!-- CSS-ის წესი (CSS Rule) = Selector + Declaration Block
+Selector -> რომელი ელემენტებისთვის მუშაობს წესი (მაგ: h1, h2)
+Declaration Block -> { property: value; } სტილები -->

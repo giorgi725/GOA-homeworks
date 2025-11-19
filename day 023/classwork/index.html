@@ -1,0 +1,49 @@
+<!-- 1) დაწერეთ რამდენი ხერხი არსებობს CSS-ის ჩასაწერად, განმარეთ თითოეული, ასევე რომელს არჩევდით დაწერეთ, განმარტეთ ტერმინები: CSS rule, selector,. declaration, property, value. შექმენით 1 h2 რომელსაც გასტილავთ inline CSS-ით, ხოლო 3 პარაგრაფს interla CSS-ით, გამოიყენეთ შემდეგი მახასიათებლები: -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Example</title>
+    <!-- CSS -->
+    <style>
+        p {
+            text-align:center;
+            background-color: black;
+            color:blue;
+            font-size:small;
+            border:1px solid red
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: red;text-align: center;">
+        ეს არის Inline გასტილული H2
+    </h2>
+</body>
+</html>
+
+
+<!--არსებობს სამი სახის :inline,interal,external 
+inline - გამოიყენება html ში style ატრიბუტით
+internal - ესეც htmlში გამოიყენება და ვწერთ head თეგში style ში
+CSS Rule (CSS წესი)
+Selector (სელექტორი)-აირჩევს HTML ელემენტ(ებ)ს, რომელსაც უნდა მიენიჭოს სტილი. მაგ.: p
+Declaration (დეკლარაცია).სტილის ერთეული წესი property + value. 
+Property (თვისება)რა თვისება უნდა შეიცვალოს. მაგ.: color, font-size
+Value (მნიშვნელობა)-რას მივანიჭებთ property-ს. მაგ.: red, -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: red; background-color: black;">Game Over</h1>
+    <button style="background-color: green; text-align: center; color: black;">ok</button>
+    <p style="text-align: center; color: black; background-color: green;">Items</p>
+    <!-- inline ს ვიყენებთ  -->
+</body>
+</html>
