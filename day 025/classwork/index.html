@@ -1,0 +1,79 @@
+<!-- 1) შექმენით h2 და h3 რომელსაც მიანჭებთ ერთნაირ ფერს, ფონის ფერს და borders. შემდეგ შექმენით მშობელი div ელემენტი, რომელშიც ჩაწერილი იქნება 3 შვილი თეგი: პარაგრაფი და კიდევ 2-3 ელემენტი. div უნდა გასტილოთ ტექსტის ფერითა და შრიფიტის ზომთ (font-size) ასევე ტექსტის განლაგებით, შემდეგ დააკვირდით შედეგს და აღწერთ რა მოხდა (მემკვიდრეობითობა) და მოკლედ დაწერეთ კომენტარი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        h2,h3{
+            color:aqua;
+            background-color: blue;
+            border: 1px solid red;
+        }
+        div{
+            color:blue;
+            font-size: large;
+        }
+        div button{
+            color: brown;
+            background-color: blueviolet;
+            border: 1px solid green;
+        }
+        button{
+            color: bisque;
+            background-color: chocolate;
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <h2>nothing</h2>
+    <h3>araferi</h3>
+    <button> click</button>
+    <div>
+        <p>araferi</p>
+        <button>araferi</button>
+        <button>araferi</button>
+    </div>
+</body>
+</html>
+
+
+<!-- 2) შექმენით 3 h3 ელემენტი, ერთ-ერთს მიანიჭეთ id რომ განსხვავებული სტილი ჰქონდეს დანარჩენი 2-ისგან, შემდეგ შექმენით ფორმა რამდენიმე შესტანი ველით და იქიდან ყოველი მეორე უნდა იყოს სხვანაირი, ამისთვის გასტილეთ როგორ id-ითა და class-ით წამოღებული ელემენტები ისე ზოგადად ყველა თეგი რაც გამოიყეენთ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #different{
+            color: blue;
+            background-color: antiquewhite;
+        }
+        #name{
+            color: black;
+            background-color: chartreuse;
+        }
+        #surname{
+            color: blue;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="different"></h3>
+    <h3></h3>
+    <h3></h3>
+
+
+    <form>
+        <input type="text" id="name">
+        <input type="text">
+        <input  type="text" id="surname">
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p {
+    background-color: chocolate;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
