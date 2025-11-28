@@ -1,0 +1,20 @@
+.div1{
+    color: rgb(32, 82, 82);
+    background-color:rgb(90, 224, 224);
+    width: 200px;
+    height: 650px;
+}
+
+.div2{
+    color: rgb(86, 55, 55);
+    background-color:rgb(80, 76, 55);
+    width: 300px;
+    height: 500px;
+}
+
+.div3{
+    color: rgb(43, 77, 79);
+    background-color:rgb(255, 67, 67);
+    width: 600px;
+    height: 400px;
+}

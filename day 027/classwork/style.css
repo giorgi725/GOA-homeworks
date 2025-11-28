@@ -1,0 +1,76 @@
+/* #color{
+    background-color: rgb(98, 120, 123);
+}
+
+#red {
+    background-color: rgb(29, 26, 23);
+}
+
+#green{
+    background-color: rgb(79, 46, 46);
+}
+
+#blue {
+    background-color: rgb(121, 117, 74);
+}
+
+#pink{
+    background-color: rgb(138, 244, 31);
+}
+
+
+#black{
+    background-color: rgb(170, 170, 109);
+}
+
+
+#gray{
+    background-color: rgb(153, 133, 133);
+} */
+
+/* #color{
+    background-color: #009900;
+}
+
+#red {
+    background-color: #990000;
+}
+
+#green{
+    background-color: #000099;
+}
+
+#blue {
+    background-color: #869999;
+}
+
+#pink{
+    background-color: #243434;
+}
+
+
+#black{
+    background-color: #424432;
+}
+
+
+#gray{
+    background-color:#233243;
+} */
+
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 45px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+} 
+
+p {
+    text-decoration-line: overline ;
+    text-decoration-style: dashed;
+    text-decoration-color: black;
+    font-family: roboto;
+}
