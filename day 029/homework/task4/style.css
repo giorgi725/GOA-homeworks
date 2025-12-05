@@ -1,0 +1,24 @@
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.playwrite{
+    font-family: "Playwrite US Trad Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight:200px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}

@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+#para1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#para2 {
+    font-family: 'Lobster', cursive;
+}
+
+#para3 {
+    font-family: 'Montserrat', sans-serif;
+}

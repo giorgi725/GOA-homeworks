@@ -1,0 +1,17 @@
+#p2{
+    text-align: right;   /* გადაიტანს მარჯვნივ*/
+    text-decoration-line: overline ;  /* ზემოდან ხაზს გაუსმევს */
+    text-decoration-style: dashed ; /* წერტილებიან ხაზსს გაუსმევს */
+    text-decoration-color: blue ;  /* ლურჯი ფერის ხაზი იქნება */
+    text-transform: capitalize; /* პირველის გარდა ყველა პატარა იქნება */
+    text-shadow: -20px 15px 4px gray /*  გადახრილი მარცხნივ 20 პიქსელით, ზემოთ 15 პიქსელით, დაბურვა 4 პიქსელი და ფერი  ნაცრისფერი */
+}
+
+#p3{
+    text-align: right;   /* გადაიტანს მარჯვნივ*/
+    text-decoration-line: overline ;  /* ზემოდან ხაზს გაუსმევს */
+    text-decoration-style: dashed ; /* წერტილებიან ხაზსს გაუსმევს */
+    text-decoration-color: blue ;  /* ლურჯი ფერის ხაზი იქნება */
+    text-transform: capitalize; /* პირველის გარდა ყველა პატარა იქნება */
+    text-shadow: -20px 15px 4px gray /*  გადახრილი მარცხნივ 20 პიქსელით, ზემოთ 15 პიქსელით, დაბურვა 4 პიქსელი და ფერი  ნაცრისფერი */
+}

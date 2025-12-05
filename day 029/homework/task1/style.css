@@ -1,0 +1,13 @@
+#p1{
+    text-align: right;
+}
+
+#p2{
+    text-decoration-line: overline ;
+    text-decoration-style: dashed ;
+    text-decoration-color: blue ;
+}
+
+#p3{
+    text-transform: capitalize;
+}
