@@ -1,0 +1,33 @@
+
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#table1 th, #table1 td{
+    border: 1px solid green
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+
+#table1 td:nth-child(4){
+    background-color: blanchedalmond;
+}
+
+#table2{
+    background-color: chartreuse;
+}
+
+#table2 th, #table2 td{
+    border:1px solid greenyellow
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+#table2 td:nth-child(3){
+    background-color: aqua;
+}

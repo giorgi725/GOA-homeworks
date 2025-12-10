@@ -1,0 +1,61 @@
+<!-- 4) შექმენით ცხრილი რომელშიც იქნება სტუდენტების სია, თითოეულს ექნება სახელი, საგანი და ქულა. ცხრილის მეორე სვეტს (საგანს) ცალკე სტილი მიანიჭეთ td:nth-child(2) სელექტორით (მაგ: სხვა ფერი ან ფონური ფერი). მთლიან ცხრილზე და td/th-ებზე გამოიყენეთ border კუთვნილება, ხოლო ცხრილის ბოლოს დააკოპირეთ ის და მეორე ვერსიას მიუმატეთ border-collapse: collapse; კომენატარებში დაწერეთ რა განსხვავებაა ორი ცხრილის გარეგნობაში -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="table1">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td>Math</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>Chemistry</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Luka</td>
+            <td>Physics</td>
+            <td>92</td>
+        </tr>
+    </table>
+<hr>
+        <table id="table2">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td>Math</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>Chemistry</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Luka</td>
+            <td>Physics</td>
+            <td>92</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- 1-ში border-collapse არ არის გამოყენებული ანუ თითოეულ <td> და <th>-ს აქვს საკუთარი border-ი. -->
+<!-- 2-ში border-collapse:collapse გამოყენებულია ანუ ყველა საზღვარი ერთიანდება და ხდება ერთი საერთო ხაზი. -->

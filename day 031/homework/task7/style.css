@@ -1,0 +1,21 @@
+input[type=text] { 
+    border-radius: 5px;
+    border: 1px solid blue;
+    text-transform: capitalize;
+}
+
+
+textarea [name="message"]{
+    border-radius: 5px; border:
+    1px solid blue;
+    text-transform: capitalize;
+}
+
+form{
+    background-color: lightgray;
+    text-align: center;
+}
+
+input[type=text]:hover{
+    background-color: lightblue;
+}

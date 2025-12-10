@@ -1,0 +1,30 @@
+
+.link {
+    font-size: 18px;
+}
+
+
+.link:link {
+    color: sienna;      
+    background-color: teal; 
+    text-decoration: none;      
+}
+
+
+.link:visited {
+    color: olive;          
+    background-color: lawngreen;   
+    text-decoration: underline;  
+}
+
+.link:hover {
+    color: darkblue;             
+    background-color: red; 
+    text-decoration: none;     
+}
+
+.link:active {
+    color: red ;             
+    background-color: gold;   
+    text-decoration: overline;  
+}

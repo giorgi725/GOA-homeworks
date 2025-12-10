@@ -1,0 +1,23 @@
+input[type="text"]{
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+input[type="password"]{
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+button{
+    background-color: green;
+    color: white; font-weight: bold;
+}
+
+button:hover {
+    background-color: darkgreen;
+    }
+
+input[type="email"]{
+    border-radius: 8px;
+    border: 2px solid gray;
+}

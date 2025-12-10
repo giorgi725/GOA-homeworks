@@ -1,0 +1,17 @@
+.nav a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: rebeccapurple;              
+    text-shadow: 0 0 8px gold;
+    box-shadow: 0 0 15px honeydew;    
+}
+
+.nav a:active {
+    color: #ff2200;
+    font-size: 18px;
+    border:1px solid blue;
+}

@@ -1,0 +1,21 @@
+#table1 th, #table1 td {
+    border: 1px solid black;
+}
+
+#table1 td:nth-child(2) {
+    background-color: red;
+    color: green;
+}
+
+#table2 th, #table2 td {
+    border: 1px solid black;
+}
+
+#table2 td:nth-child(2) {
+    background-color: gray;
+    color: darkorange;
+}
+
+#table2{
+    border-collapse: collapse;
+}
