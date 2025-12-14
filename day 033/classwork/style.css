@@ -1,0 +1,17 @@
+div{
+    font-size: 30px;
+}
+
+.box-one{
+    background-color: blueviolet;
+    border: 10px  solid red;
+    margin:50px;
+    padding:25px
+}
+
+.box-two{
+    background-color:chocolate;
+    border: 10px  solid gold;
+    margin:45px;
+    padding:15px
+}

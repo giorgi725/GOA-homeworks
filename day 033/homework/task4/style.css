@@ -1,0 +1,34 @@
+div{
+    padding: 20px; 
+    border: 5px solid black;
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+/* 
+CSS BOX MODEL შედგება 4 ნაწილისგან:
+1) Content – შიგთავსი
+2) Padding – შიდა სივრცე content-სა და border-ს შორის
+3) Border – ელემენტის ჩარჩო
+4) Margin – გარე სივრცე ელემენტებს შორის
+
+
+Padding:
+შიდა სივრცე, რომელიც აშორებს content-ს border-ისგან;
+
+Margin:
+გარე სივრცე ელემენტსა და სხვა ელემენტებს შორის;
+
+Content:
+ელემენტის შიგნით არსებული ტექსტი ან სხვა HTML ელემენტი;
+
+Border:
+ჩარჩო, რომელიც აკრავს padding-სა და content-ს;
+*/
+
+/* 
+Box Model:
+ელემენტის სრული ზომა ითვლება ასე:
+margin + border + padding + content
+*/ 
