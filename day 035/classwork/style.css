@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    height:200px;
+    width:150px;
+    background-color: brown;
+    border:2px solid black
+}
+
+.child{
+    border:1px solid red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+} */
+
+body{
+    font-size: 30px;
+}
+
+.parent{
+    background-color:bisque;
+    padding:10px;
+}
+
+.items{
+    padding:10px;
+    position: absolute;
+    right:20px
+}
+
+.one{
+    position:absolute;
+    right:20px;
+    padding:10px;
+}
+
+.two{
+    padding: 10px;
+    background-color: brown;
+}
+
+.three{
+    padding:10px;
+    background-color: chocolate;
+}

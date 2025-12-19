@@ -1,0 +1,51 @@
+<!-- 7) შექმენით საიტი თქვენთვის სასურველ თემატიკაზე, გამოიყენეთ ყველაფერი რაც css-ში ისწავლეთ, ოთხივე პოზიციის ტიპის ჩათვლით -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>nothingg</title>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial;
+    }
+    header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    p {
+    margin-top: 60px;
+    text-align: center;
+    }
+    .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: lightgray;
+    margin: 50px auto;
+    }
+    .small-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    }
+</style>
+</head>
+<body>
+    <header>HEADER (fixed)</header>
+    <p>ეს არის ტექსტი</p>
+<div class="box">
+    RELATIVE BOX
+    <div class="small-box">ABS</div>
+</div>
+</body>
+</html>

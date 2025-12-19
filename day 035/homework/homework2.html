@@ -1,0 +1,51 @@
+<!-- 3) შექმენით ერთი div ID-ით container, რომელიც იქნება Flexbox კონტეინერი. მასში ჩასვით 5 ელემენტი (მაგალითად div კლასით box) და თითოეულზე გამოიყენეთ სხვადასხვა ფერის ფონი. container-ზე გამოიყენეთ Flexbox-ის შემდეგი თვისებები: flex-direction, justify-content, align-items, flex-wrap, ხოლო box-ებზე – flex-grow და flex-shrink. ყოველი თვისება ცალ-ცალკე სცადეთ სხვადასხვა მნიშვნელობებით და დააკვირდით, როგორ მოქმედებს განლაგებაზე -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Example</title>
+    <style>
+    #container {
+    display: flex;
+
+    
+    flex-direction: row;   
+    justify-content: space-between; 
+    align-items: center;        
+    flex-wrap: wrap;            
+
+    height: 300px;
+    border: 2px solid black;
+    gap: 10px;
+    }
+
+    .box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+    flex-shrink: 1;  
+    }
+
+    .box1 { background: red; }
+    .box2 { background: blue; }
+    .box3 { background: green; }
+    .box4 { background: orange; }
+    .box5 { background: purple; }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    </div>
+</body>
+</html>
