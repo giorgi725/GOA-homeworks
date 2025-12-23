@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: bisque;
+    display: flex;
+    height: 400px;
+    position:relative
+}
+
+.child{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border:2px solid red;
+}
+
+#two{
+    position: relative;
+    right:50px;
+    top:300px;
+}
+
+/* z-index - მაგალითად როდესაც ელემენტები ერთმანეთზე აწყვია რომელ ელემენტსაც მეტი ინდექსი ექნება ეგ მოექცევა ზემოდან */

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border:2px solid red;
+    padding: auto;
+    height: 500px;
+    width: 400px;
+    background-image: url("image.png");
+    background-repeat:no-repeat;
+    background-size:100px;
+    background-position:center;
+    background-attachment:scroll;
+
+}
