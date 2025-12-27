@@ -1,0 +1,16 @@
+.container1{
+    background-color: rgb(22, 52, 42);
+    width: 200px;
+    height:200px;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;
+}
+
+.container1:hover{
+    width: 500px;
+    background-color: rgb(70, 70, 56);
+}
+
+/*pseudo class ში იმიტომ არ ვუწერთ რო pseudi classში დაბრუნებისას აღარ იმუშავებს*/
