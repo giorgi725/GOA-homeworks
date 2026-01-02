@@ -1,0 +1,11 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 3s, background-color 3s; 
+}
+
+.box:hover {
+    transform: translateX(-100px); 
+    background-color: indigo;    
+}

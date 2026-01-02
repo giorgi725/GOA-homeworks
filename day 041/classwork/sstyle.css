@@ -1,0 +1,37 @@
+.parent{
+    width: 800px;
+    height: 800px;
+    background-color: seagreen;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    border-radius: 15px;
+
+    transition: transform 3s;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+.child:hover{
+    transform:translateY(300%)
+}
+
+@keyframes move{
+    0%{
+        background-color: indigo;
+    }
+    25%{
+        transform:translateX(600px);
+    }
+    50%{
+        transform:translate(600px,600px);
+    }
+    75%{
+        transform:translate(0px,600px);
+    }
+    100%{
+        transform:translate(0px,0px);
+    }
+}

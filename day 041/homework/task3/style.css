@@ -1,0 +1,31 @@
+body {
+    background: rgb(15, 15, 20);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(26, 26, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    fill: rgb(119, 119, 119);
+    transition: fill 0.4s ease;
+}
+
+.icon:hover {
+    box-shadow:
+    0 0 15px rgba(255, 0, 128, 0.6),
+    0 0 30px rgba(255, 0, 128, 0.4);
+}
+
+.instagram:hover  {
+    fill: rgb(255, 0, 128);
+}
