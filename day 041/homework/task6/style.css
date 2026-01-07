@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+}
+img{
+    width: 100px;
+}
+#main{
+    width: 200px;
+    height: 7px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+#bar{
+    height: 7px;
+    background-color: white;
+    border-radius: 20px;
+    animation: loading 2s infinite linear;
+}
+
+@keyframes loading{
+    from{
+        width: 0px;
+    }to{
+        width: 200px;
+    }
+}

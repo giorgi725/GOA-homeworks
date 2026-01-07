@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #191919;
+    }
+    p{
+        color: white;
+    }
+    #main{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #div{
+        width: 30px;
+        height: 30px;
+        border: 5px solid gray;
+        border-radius: 50%;
+        border-top: 5px solid white;
+        animation: loading 1s infinite linear;
+    }
+    p{
+        font-size: 30px;
+    }
+
+    @keyframes loading{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="div"></div>
+        <p>logo</p>
+    </div>
+</body>
+</html>
