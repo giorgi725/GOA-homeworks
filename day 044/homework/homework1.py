@@ -9,7 +9,7 @@ def triangle_area(base, height):
         area = 0.5 * base * height
         return area
 
-    except TypeError as e:
-        return f"TypeError: {e}"
-    except ValueError as e:
-        return f"ValueError: {e}"
+    except TypeError as k:
+        return f"TypeError: {k}"
+    except ValueError as k:
+        return f"ValueError: {k}"
