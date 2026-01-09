@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 220px 140px 140px;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas:
+        "hero hero hero three three"
+        "wide wide wide wide wide"
+        "b5 b6 b7 b8 b9";
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #333;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ff9a9e, #a1c4fd);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.grid > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+}
+.hero {
+    grid-area: hero;
+    background: linear-gradient(135deg, #ff77ff, #b983ff);
+}
+
+.three {
+    grid-area: three;
+    background: linear-gradient(135deg, #7bdff2, #80ffdb);
+}
+
+.four {
+    grid-area: four;
+    background: linear-gradient(135deg, #7bdff2, #80ffdb);
+}
+
+.wide {
+    grid-area: wide;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+.b5 { grid-area: b5; }
+.b6 { grid-area: b6; }
+.b7 { grid-area: b7; }
+.b8 { grid-area: b8; }
+.b9 { grid-area: b9; }
