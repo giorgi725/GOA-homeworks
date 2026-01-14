@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.box{
+    height: 1000px;
+    width: 1000px;
+    background-color: blue;
+}
+nav{
+    height: 100px;
+    width: 100px;
+}
+@media  (500px <= width){
+    .box{
+        background-color: brown;
+        flex-direction: column;
+    }
+    nav{
+        background-color: bisque;
+    }
+}
+@media  (1000px <= width){
+    .box{
+        background-color: blueviolet;
+    }
+    nav{
+        background-color: honeydew;
+    }
+}
+@media  (1500px <= width){
+    .box{
+        background-color: aquamarine;
+    }
+    nav{
+        background-color: khaki;
+    }
+}
+@media  (2000px <= width){
+    .box{
+        background-color: beige;
+    }
+    nav{
+        background-color: blue;
+    }
+}
