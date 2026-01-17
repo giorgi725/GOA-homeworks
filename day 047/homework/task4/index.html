@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 12) შექმენით HTML ღილაკი <button id="sizeBtn">Change Size</button> და <h1 id="title">Welcome</h1>. internal JS-ში გააკეთეთ ისე, რომ ღილაკზე დაჭერისას h1 ტექსტის ზომა გაიზარდოს 40px-მდე (style.fontSize = "40px") -->
+
+    <button id="sizebtn">Change Size</button>
+    <h1 id="title">Welcome</h1>
+
+    <script> 
+        let button=document.getElementById("sizebtn")
+        let h1=document.getElementById("title")
+
+        button.addEventListener("click", function() {
+            h1.style.fontSize="40px";
+        })
+    </script>
+</body>
+</html>

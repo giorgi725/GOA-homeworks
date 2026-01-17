@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 11) შექმენით HTML ღილაკი <button id="colorBtn">Change Color</button> და პარაგრაფი <p id="para">Some text</p>. internal JS-ში გააკეთეთ ისე, რომ ღილაკზე დაჭერისას პარაგრაფის ფერი გახდეს წითელი (style.color = "red") -->
+    <button id="colorBtn">Change Color</button>
+    <p id="para">Some text</p>
+    <script>
+        let button=document.getElementById("colorBtn")
+        let p=document.getElementById("para")
+
+        button.addEventListener("click", function() {
+            p.style.color="red";
+        })
+    </script> 
+</body>
+</html>

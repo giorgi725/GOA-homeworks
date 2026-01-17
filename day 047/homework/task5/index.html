@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 13) შექმენით HTML ღილაკი <button id="bgBtn">Change Background</button> და <div id="box" style="width:100px; height:100px; background-color:blue;"></div>. internal JS-ში გააკეთეთ ისე, რომ ღილაკზე დაჭერისას div-ის ფერი შეიცვალოს მწვანედ -->
+    <button id="bgBtn">Change Background</button>
+    <div id="box" style="width:100px; height:100px; background-color:blue;"></div>
+
+    <script>
+        let button =document.getElementById("bgBtn")
+        let div =document.getElementById("box")
+
+        button.addEventListener("click", function(){
+            div.style.backgroundColor="green"
+        })
+    </script>
+</body>
+</html>
