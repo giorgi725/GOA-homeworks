@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0a66c2;
+}
+
+.logo span {
+    background: #0a66c2;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+
+.nav-center a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.nav-center a:hover {
+    color: #0a66c2;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-right .link {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.nav-right .btn {
+    text-decoration: none;
+    padding: 8px 18px;
+    border: 1px solid #0a66c2;
+    border-radius: 25px;
+    color: #0a66c2;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-right .btn:hover {
+    background: #0a66c2;
+    color: white;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    padding:60px 80px;
+    height: 600px;
+    width: 1300px;
+    margin-left:200px;
+    margin-top:30px;
+}
+input{
+    width: 400px;
+}
+.left{
+    width:45%;
+}
+.left h1{
+    font-size:36px;
+    color:#b24020;
+    margin-bottom:30px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+label{
+    margin-top:15px;
+    font-size:14px;
+    color:#444;
+}
+input{
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+.forgot{
+    margin:15px 0;
+    color:#0a66c2;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.btn-login{background:#0a66c2;
+    color:#fff;
+    border:none;
+    padding:12px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+    width: 400px;
+}
+.or{
+    text-align:center;
+    margin:20px 0;
+    margin-right: 120px;
+    color:#888;
+}
+
+.btn-google,.btn-join{padding:10px;
+    margin-top:10px;
+    border-radius:25px;
+    border:1px solid #aaa;
+    background:#fff;
+    cursor:pointer;
+    width: 400px;
+}
+.right img{
+    width:400px;
+}
