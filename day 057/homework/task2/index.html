@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- შექმენით ფორმა ვებგვერდზე, რომელსაც ექნება: სახელი, იმეილი, პაროლი და "დაადასტურე პაროლი" (confirm). როცა მომხმარებელი დააწვება Submit ღილაკს:
+
+შეამოწმეთ თუ რომელიმე ველი ცარიელია — თუ ცარიელია, alert-ით მოთხოვეთ სრული ინფორმაციის შეყვანა
+თუ პაროლი მოკლეა (length < 8) — alert-ით უთხარით უფრო დიდი პაროლის შეყვანა
+თუ პაროლი და confirm_password ერთმანეთს არ ემთხვევა — გაუშვით alert რომ პაროლები არ ემთხვევა
+შეამოწმეთ რომ იმეილი შეიცავდეს '@' და '.' — თუ არა, დააბრუნეთ შენიშვნა
+თუ ყველა პირობა დაკმაყოფილდა, გამოიტანეთ alert: "რეგისტრაცია წარმატებული" ან ჩაწერეთ მომხმარებლის სახელი  -->
+    <form>
+        <input id="name" type="text"/>
+        <input id="email" type="email"/>
+        <input id="pass1" type="password"/>
+        <input id="pass2" type="password">
+        <button id="btn">confirm</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
