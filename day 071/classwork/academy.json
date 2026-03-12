@@ -1,0 +1,13 @@
+[
+    {
+        "academy": "Goal Oriented Academy",
+        "student": 10000,
+        "CEO": "Nika Keshelava",
+        "Group-88-is-best": true
+    },
+    {
+        "academy": "idk",
+        "student": 23,
+        "CEO": null
+    }
+]

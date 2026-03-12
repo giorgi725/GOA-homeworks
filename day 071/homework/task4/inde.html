@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 5) შექმენით searchPosts მოდული DummyJSON API [https://dummyjson.com/posts?q=searchText](https://dummyjson.com/posts?q=searchText) გამოყენებით form submit-ზე გამოყენებული სიტყვით გაფილტრეთ მხოლოდ ის პოსტები რომელთა title შეიცავს საძიებო სიტყვას renderInfo ფუნქციით გამოიტანეთ title body views და tags გამოიყენეთ for of და აჩვენეთ ტექსტი თუ არც ერთი პოსტი არ მოიძებნა
+    Requirements
+    1. HTML search input და form
+    2. async fetchInfo ფუნქცია რომელიც გამოიტანს data.posts
+    3. filter გამოყენება title.includes() შესამოწმებლად
+    4. for of ლუპი პოსტების გადასაყვანად DOM-ში
+    5. შეტყობინება თუ ძიებამ შედეგი ვერ მოიტანა -->
+    <input id="input" type="text" required/>
+    <button>Search</button>
+    <div id="main"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

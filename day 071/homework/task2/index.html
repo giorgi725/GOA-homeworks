@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3) შექმენით cryptoTracker აპი სადაც form submit-ზე მომხმარებელი ჩაწერს კრიპტოს სახელს გამოიყენეთ CoinGecko API [https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${crypto}](https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${crypto}) fetch მეთოდით წამოიღეთ JSON მონაცემები და გამოიტანეთ კრიპტოს სახელი ფასი და 24h ცვლილება დაამატეთ შეცდომის გამოტანა თუ კრიპტო არ მოიძებნა
+    Requirements
+
+    1. HTML input და button მომხმარებლის საძიებოდ
+    2. async ფუნქცია fetchCrypto რომელიც გამოიძახებს API-ს
+    3. JSON მონაცემების მიღება და რენდერი ეკრანზე
+    4. შეცდომის გამოტანა თუ API არ აბრუნებს შედეგს
+    5. UI-ის გასუფთავება ყოველი ახალი ძიების წინ -->
+    <input id="input" type="text" required/>
+    <button id="btn">Search</button>
+    <script src="script.js"></script>
+</body>
+</html>

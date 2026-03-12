@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 30px 50px 30px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(6, 400px);
+    gap: 40px;
+    margin-top: 30px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.posts:hover{
+    transform: scale(1.05);
+}
+#input{
+    position: fixed;
+    top: 10px;
+    width: 201vh
+}
+button{
+    position: fixed;
+    top: 30px;
+    width: 201vh;
+}
