@@ -90,17 +90,17 @@ print(merge_sort(arr))
 # 4) შექმენით ფუნქცია სახელად caesar_cipher რომელიც მიიღებს ტექსტს და რიცხვს shift, ფუნქციამ უნდა გადაადგილოს მხოლოდ ანბანის ასოები ASCII კოდების მიხედვით. მაგ: "abc", 2 -> "cde". სხვა სიმბოლოები უცვლელი უნდა დარჩეს, გამოიყენეთ ord() და chr() და კომენტარებით ახსენით ალგორითმი
 
 def caesar_cipher(text, shift):
-    result = ""  
+    res = ""  
     
     for char in text:
         if 'a' <= char <= 'z':
             ascii_code = ord(char)
             new_code = (ascii_code - ord('a') + shift) % 26 + ord('a')
-            result += chr(new_code)
+            res += chr(new_code)
         elif 'A' <= char <= 'Z':
             ascii_code = ord(char)
             new_code = (ascii_code - ord('A') + shift) % 26 + ord('A')
-            result += chr(new_code)
+            res += chr(new_code)
         else:
-            result += char
-    return result
+            res += char
+    return res

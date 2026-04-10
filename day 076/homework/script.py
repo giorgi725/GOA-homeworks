@@ -40,12 +40,12 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        element = 0  
+        ele = 0  
         for i in range(len(nums)):
             if nums[i] != val:
-                nums[element] = nums[i]
-                element += 1
-        return element
+                nums[ele] = nums[i]
+                ele += 1
+        return ele
 
 # https://leetcode.com/problems/plus-one/description/?envType=problem-list-v2&envId=array
 
@@ -72,7 +72,6 @@ class Solution(object):
         """
         min_price = float('inf')
         max_profit = 0
-
         for price in prices:
             if price < min_price:
                 min_price = price
