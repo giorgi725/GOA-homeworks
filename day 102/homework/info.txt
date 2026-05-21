@@ -1,0 +1,12 @@
+touch info.txt
+
+echo -e "old car old house this is old" > info.txt
+
+sed 's/old/new/g' info.txt
+
+sed — გამოიყენება ტექსტის დამუშავებისა და შეცვლისთვის ბრძანების ხაზიდან.
+s/old/new/g ნიშნავს:
+s → შეცვლა
+old → ძველი სიტყვა
+new → ახალი სიტყვა
+g → ყველა დამთხვევის შეცვლა ხაზში.
