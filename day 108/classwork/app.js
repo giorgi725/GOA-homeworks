@@ -1,7 +1,5 @@
 const hhtp = require("http")
-
 const Server = hhtp.createServer()
-
 const Server = http.createServer((req,res) => {
     let body = ""
     req.on("data", chunk => {
