@@ -1,0 +1,38 @@
+--2) შექმენით database library და collection Books. insertMany() ბრძანებით დაამატეთ 5 book document (title, author, pages, year). შემდეგ find() მეთოდით გამოიტანეთ მხოლოდ ის წიგნები, რომელთა pages არის 300-ზე მეტი. კომენტარში ახსენით რას აკეთებს $gt operator.
+
+--  db.Books.insertMany([
+--     {
+--         title: "The Hobbit",
+--         author: "J.R.R. Tolkien",
+--         pages: 310,
+--         year: 1937
+--     },
+--     {
+--         title: "Harry Potter and the Philosopher's Stone",
+--         author: "J.K. Rowling",
+--         pages: 223,
+--         year: 1997
+--     },
+--     {
+--         title: "The Lord of the Rings",
+--         author: "J.R.R. Tolkien",
+--         pages: 1178,
+--         year: 1954
+--     },
+--     {
+--         title: "1984",
+--         author: "George Orwell",
+--         pages: 328,
+--         year: 1949
+--     },
+--     {
+--         title: "Animal Farm",
+--         author: "George Orwell",
+--         pages: 112,
+--         year: 1945
+--     }
+-- ])
+
+-- db.Books.find({
+--     pages: { $gt: 300 }
+-- })

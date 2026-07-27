@@ -1,0 +1,49 @@
+-- 4) შექმენით database academy და collection Students. insertOne ბრძანებით დაამატეთ 1 student document: name, age, score, group. insertMany ბრძანებით დაამატეთ კიდევ 4 student. გამოიტანეთ students, რომელთა age არის 18-ზე მეტი და score არის 80-ზე მეტი, ან group არის "A". კომენტარში ახსენით რას აკეთებს and და or operator-ები
+
+-- db.Students.insertOne({
+--   name: "Giorgi",
+--   age: 19,
+--   score: 85,
+--   group: "B"
+-- })
+
+-- db.Students.insertMany([
+--   {
+--     name: "Nika",
+--     age: 17,
+--     score: 92,
+--     group: "A"
+--   },
+--   {
+--     name: "Luka",
+--     age: 20,
+--     score: 78,
+--     group: "C"
+--   },
+--   {
+--     name: "Ana",
+--     age: 18,
+--     score: 88,
+--     group: "A"
+--   },
+--   {
+--     name: "Mariam",
+--     age: 21,
+--     score: 95,
+--     group: "B"
+--   }
+-- ])
+
+-- db.Students.find({
+--   $or: [
+--     {
+--       $and: [
+--         { age: { $gt: 18 } },
+--         { score: { $gt: 80 } }
+--       ]
+--     },
+--     {
+--       group: "A"
+--     }
+--   ]
+-- })

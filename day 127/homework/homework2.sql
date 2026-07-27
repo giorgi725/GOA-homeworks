@@ -1,0 +1,41 @@
+-- 3) შექმენით database market და collection Products. insertOne ბრძანებით დაამატეთ 1 product document: productName, price, quantity, category. insertMany ბრძანებით დაამატეთ კიდევ 4 product. გამოიტანეთ products, რომელთა price არის 100-ზე ნაკლები, quantity არის 5-ზე ნაკლები ან ტოლი და category არის "Food" ან "Drink". კომენტარში ახსენით რას აკეთებს gt, gte, lt და lte operator-ები
+
+-- db.Products.insertOne({
+--   productName: "Milk",
+--   price: 8,
+--   quantity: 5,
+--   category: "Drink"
+-- })
+
+-- db.Products.insertMany([
+--   {
+--     productName: "Bread",
+--     price: 3,
+--     quantity: 4,
+--     category: "Food"
+--   },
+--   {
+--     productName: "Cheese",
+--     price: 12,
+--     quantity: 10,
+--     category: "Food"
+--   },
+--   {
+--     productName: "Juice",
+--     price: 6,
+--     quantity: 2,
+--     category: "Drink"
+--   },
+--   {
+--     productName: "Laptop",
+--     price: 1200,
+--     quantity: 3,
+--     category: "Electronics"
+--   }
+-- ])
+
+-- db.Products.find({
+--   price: { $lt: 100 },
+--   quantity: { $lte: 5 },
+--   category: { $in: ["Food", "Drink"] }
+-- })

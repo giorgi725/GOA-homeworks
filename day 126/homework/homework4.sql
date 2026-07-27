@@ -1,0 +1,45 @@
+-- 5) database shop-ში შექმენით collection Products. insertMany() ბრძანებით დაამატეთ რამდენიმე პროდუქტი (productName, price, stock, brand), შემდეგ insertOne() ბრძანებით დაამატეთ კიდევ ერთი პროდუქტი. გამოიტანეთ მხოლოდ ის პროდუქტები, რომელთა stock არის 50-ზე მეტი. კომენტარში ახსენით რატომ ვიყენებთ $gt operator-ს.
+
+-- db.Products.insertMany([
+--   {
+--     productName: "Laptop",
+--     price: 2500,
+--     stock: 60,
+--     brand: "Dell"
+--   },
+--   {
+--     productName: "Smartphone",
+--     price: 1200,
+--     stock: 45,
+--     brand: "Samsung"
+--   },
+--   {
+--     productName: "Monitor",
+--     price: 800,
+--     stock: 70,
+--     brand: "LG"
+--   },
+--   {
+--     productName: "Keyboard",
+--     price: 120,
+--     stock: 100,
+--     brand: "Logitech"
+--   },
+--   {
+--     productName: "Mouse",
+--     price: 80,
+--     stock: 30,
+--     brand: "Logitech"
+--   }
+-- ])
+
+-- db.Products.insertOne({
+--   productName: "Headphones",
+--   price: 250,
+--   stock: 55,
+--   brand: "Sony"
+-- })
+
+-- db.Products.find({
+--   stock: { $gt: 50 }
+-- })

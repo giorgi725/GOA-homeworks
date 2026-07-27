@@ -1,0 +1,39 @@
+-- 6) შექმენით database cinema და collection Movies. insertOne() და insertMany() ბრძანებების გამოყენებით დაამატეთ სულ 5 ფილმი (title, genre, duration, rating). find() მეთოდით გამოიტანეთ ფილმები, რომელთა duration არის 120 წუთზე მეტი. კომენტარში ახსენით რას აკეთებს find() მეთოდი.
+
+-- db.Movies.insertOne({
+--   title: "Inception",
+--   genre: "Sci-Fi",
+--   duration: 148,
+--   rating: 8.8
+-- })
+
+-- db.Movies.insertMany([
+--   {
+--     title: "The Dark Knight",
+--     genre: "Action",
+--     duration: 152,
+--     rating: 9.0
+--   },
+--   {
+--     title: "Titanic",
+--     genre: "Romance",
+--     duration: 195,
+--     rating: 7.9
+--   },
+--   {
+--     title: "Joker",
+--     genre: "Drama",
+--     duration: 122,
+--     rating: 8.4
+--   },
+--   {
+--     title: "Toy Story",
+--     genre: "Animation",
+--     duration: 81,
+--     rating: 8.3
+--   }
+-- ])
+
+-- db.Movies.find({
+--   duration: { $gt: 120 }
+-- })

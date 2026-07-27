@@ -1,0 +1,41 @@
+-- 2) შექმენით database game და collection Players. insertOne ბრძანებით დაამატეთ 1 player document: username, level, coins, rank. insertMany ბრძანებით დაამატეთ კიდევ 4 player. გამოიტანეთ players, რომელთა level არის 10-ზე მეტი, coins არის 500-ზე მეტი ან ტოლი და rank არის "Gold". კომენტარში ახსენით რა განსხვავებაა insertOne-სა და insertMany-ს შორის
+
+-- db.Players.insertOne({
+--   username: "Gio123",
+--   level: 15,
+--   coins: 800,
+--   rank: "Gold"
+-- })
+
+-- db.Players.insertMany([
+--   {
+--     username: "NikaPro",
+--     level: 8,
+--     coins: 600,
+--     rank: "Silver"
+--   },
+--   {
+--     username: "LukaGamer",
+--     level: 12,
+--     coins: 500,
+--     rank: "Gold"
+--   },
+--   {
+--     username: "AnaPlay",
+--     level: 20,
+--     coins: 1200,
+--     rank: "Gold"
+--   },
+--   {
+--     username: "MariamX",
+--     level: 11,
+--     coins: 450,
+--     rank: "Gold"
+--   }
+-- ])
+
+-- db.Players.find({
+--   level: { $gt: 10 },
+--   coins: { $gte: 500 },
+--   rank: "Gold"
+-- })

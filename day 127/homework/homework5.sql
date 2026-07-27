@@ -1,0 +1,39 @@
+-- 5) შექმენით database usersApp და collection Users. insertOne ბრძანებით დაამატეთ 1 user document: username, email, role, isActive. insertMany ბრძანებით დაამატეთ კიდევ 4 user, ზოგიერთ user-ს email არ ჰქონდეს. გამოიტანეთ users, რომლებსაც email field აქვთ, role არის "student" ან "admin" და isActive არის true. კომენტარში ახსენით რას აკეთებს eq, in და exists operator-ები
+
+-- db.Users.insertOne({
+--   username: "giorgi123",
+--   email: "giorgi@gmail.com",
+--   role: "student",
+--   isActive: true
+-- })
+
+-- db.Users.insertMany([
+--   {
+--     username: "nika22",
+--     email: "nika@gmail.com",
+--     role: "admin",
+--     isActive: true
+--   },
+--   {
+--     username: "luka77",
+--     role: "student",
+--     isActive: true
+--   },
+--   {
+--     username: "ana01",
+--     email: "ana@gmail.com",
+--     role: "teacher",
+--     isActive: true
+--   },
+--   {
+--     username: "mariam99",
+--     role: "admin",
+--     isActive: false
+--   }
+-- ])
+
+-- db.Users.find({
+--   email: { $exists: true },
+--   role: { $in: ["student", "admin"] },
+--   isActive: { $eq: true }
+-- })

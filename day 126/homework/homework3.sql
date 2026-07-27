@@ -1,0 +1,38 @@
+-- 4) შექმენით database school და collection Students. დაამატეთ მინიმუმ 5 student document (name, age, score, group). find() მეთოდით მოძებნეთ მხოლოდ ის სტუდენტები, რომელთა score არის 90-ზე მეტი. კომენტარში ახსენით რისთვის გამოიყენება find() მეთოდი.
+
+-- db.Students.insertMany([
+--   {
+--     name: "Giorgi",
+--     age: 18,
+--     score: 95,
+--     group: "A"
+--   },
+--   {
+--     name: "Nika",
+--     age: 19,
+--     score: 88,
+--     group: "B"
+--   },
+--   {
+--     name: "Luka",
+--     age: 17,
+--     score: 92,
+--     group: "A"
+--   },
+--   {
+--     name: "Ana",
+--     age: 18,
+--     score: 85,
+--     group: "C"
+--   },
+--   {
+--     name: "Mariam",
+--     age: 20,
+--     score: 97,
+--     group: "B"
+--   }
+-- ])
+
+-- db.Students.find({
+--   score: { $gt: 90 }
+-- })

@@ -1,0 +1,38 @@
+-- 7) შექმენით database hospital და collection Doctors. დაამატეთ ექიმების მონაცემები (name, specialty, experience, patientsPerDay). find() მეთოდით გამოიტანეთ მხოლოდ ის ექიმები, რომელთა experience არის 10 წელზე მეტი. კომენტარში ახსენით, რომელ შემთხვევებში გამოიყენება insertMany() და რატომ არის ის მოსახერხებელი.
+
+-- db.Doctors.insertMany([
+--   {
+--     name: "Giorgi Beridze",
+--     specialty: "Cardiologist",
+--     experience: 15,
+--     patientsPerDay: 20
+--   },
+--   {
+--     name: "Nino Kapanadze",
+--     specialty: "Pediatrician",
+--     experience: 8,
+--     patientsPerDay: 25
+--   },
+--   {
+--     name: "Luka Japaridze",
+--     specialty: "Neurologist",
+--     experience: 12,
+--     patientsPerDay: 18
+--   },
+--   {
+--     name: "Mariam Dolidze",
+--     specialty: "Dermatologist",
+--     experience: 6,
+--     patientsPerDay: 22
+--   },
+--   {
+--     name: "Ana Gelashvili",
+--     specialty: "Surgeon",
+--     experience: 20,
+--     patientsPerDay: 10
+--   }
+-- ])
+
+-- db.Doctors.find({
+--   experience: { $gt: 10 }
+-- })
